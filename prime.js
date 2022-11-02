@@ -8,3 +8,7 @@ count++;
 if(count==1){
 console.log("prime");
 }
+else{
+console.log("Always prime");
+}
+}
