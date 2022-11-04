@@ -11,7 +11,7 @@ function checkprime(num){
           factor++;
        }
     }
-       if(count==2)
+       if(factor==2)
        {
           console.log("Yes");
        }
