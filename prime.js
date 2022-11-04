@@ -1,14 +1,24 @@
+//Identify_Prime...//
+
 
 function checkprime(num){
- for(let i=2;i<=num;i++){
-if(num%i==0){
-count++;
-} 
-} 
-if(count==1){
-console.log("prime");
+
+    let factor = 0;
+    for(let i=1 ; i<=num ; i++)
+    {
+       if(num%i==0)
+       {
+          factor++;
+       }
+    }
+       if(factor==2)
+       {
+          console.log("Yes");
+       }
+       else
+       {
+          console.log("No");
+       }
 }
-else{
-console.log("Always prime");
-}
-}
+
+checkprime(13)
